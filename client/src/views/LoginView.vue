@@ -1,5 +1,9 @@
 <script setup>
-  
+  import {useRouter} from 'vue-router';
+  const route = useRouter();
+  const auth = () => {
+    route.replace('/master');
+  }
 </script>
 
 <template>
@@ -22,7 +26,7 @@
                 <p>Please Sign-in to your account.</p>
               </div>
 
-              <form>
+              <form @submit.prevent="auth" method="POST">
                 <div class="mb-3">
                   <div class="form-floating">
                     <input

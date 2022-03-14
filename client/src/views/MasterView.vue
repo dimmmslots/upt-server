@@ -29,7 +29,7 @@
           </ul>
         </div>
         <div class="logo">
-          <a class="navbar-brand" href="index.html"></a>
+          <a class="navbar-brand" href="#"></a>
         </div>
         <div class="" id="headerNav">
           <ul class="navbar-nav">
@@ -125,7 +125,7 @@
                     <div class="notif-image">
                       <span class="notification-badge">
                         <img
-                          src="../../assets/images/avatars/profile-image.png"
+                          src="@/assets/images/avatars/profile-image.png"
                           alt=""
                         />
                       </span>
@@ -141,7 +141,7 @@
                     <div class="notif-image">
                       <span class="notification-badge">
                         <img
-                          src="../../assets/images/avatars/profile-image.png"
+                          src="@/assets/images/avatars/profile-image.png"
                           alt=""
                         />
                       </span>
@@ -163,7 +163,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 ><img
-                  src="../../assets/images/avatars/profile-image.png"
+                  src="@/assets/images/avatars/profile-image.png"
                   alt=""
               /></a>
               <div
